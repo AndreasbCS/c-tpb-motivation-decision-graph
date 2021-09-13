@@ -24,24 +24,25 @@ The program generates a plan (sequence of transitions) that follows the experts'
 
 Example configuration: 
 
----
-% Explaination of values: 
-% 1=Negative, 2=Medium, 3=Positive.
-
+``` 
 % Current Mental State
-% =================
+% ===========================
 init_on(attitude,1).
 init_on(norm,1).
 init_on(control,1).
 
 % Goal State
-% =================
+% ===========================
 goal_on(attitude,3).
 goal_on(norm,3).
 goal_on(control,3).
 
+% 1=Negative, 2=Medium, 3=Positive.
+
+% Number of generated actions
+% ===========================
 plan_length(6).
----
+```
 
 Example output:
 
