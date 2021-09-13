@@ -20,7 +20,7 @@ CLINGO is an Answer Set Programming system to ground and solve logic programs.
 
 Command line: C:\clingo>clingo CTPB-MDG.lp
 
-The program generates a plan (sequence of transitions) that follows the experts' suggestions for motivational focus, based on a current observed mental state leading to a goal mental state.
+The program generates a plan (sequence of actions) that follows the experts' suggestions for motivational focus, based on a current observed mental state leading to a goal mental state.
 
 Example configuration: 
 
